@@ -35,15 +35,15 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-[6rem] left-1/2 flex h-[5rem] w-[50rem] -translate-x-1/2 transform rounded-full bg-white shadow-lg">
+      <div className="absolute top-[5.5rem] left-1/2 flex h-[5rem] w-[50rem] -translate-x-1/2 transform rounded-bl-[3rem] rounded-tr-[3rem] bg-white shadow-lg">
         <input
           type="search"
           name="search"
           id="search"
           placeholder="Search Product"
-          className="ml-[2.5rem] w-full border-none bg-transparent text-gray-500 outline-none"
+          className="ml-[2.5rem] w-full border-none bg-transparent  text-gray-500 outline-none"
         />
-        <div className="flex h-full w-[14rem] cursor-pointer items-center justify-center rounded-full bg-green-600 text-[1.6rem] font-medium">
+        <div className="flex h-full w-[16rem] cursor-pointer items-center justify-center rounded-bl-[3rem] rounded-tr-[3rem] bg-green-600 text-[1.6rem] font-medium">
           <a>Search</a>
         </div>
       </div>
