@@ -20,7 +20,7 @@ const Sidebar = () => {
     <div
       className={`relative ${
         open ? "w-52" : "w-16"
-      } bg-green-600 py-2 transition-all duration-300`}
+      } h-full bg-green-600 py-2 transition-all duration-300`}
     >
       <div
         className="absolute -right-4 top-14 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border-4 border-green-600 bg-white text-xl text-green-600"
